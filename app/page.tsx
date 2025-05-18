@@ -52,10 +52,9 @@ export default function Home() {
                   <Link href="https://www.amazon.com/">Amazon.com</Link>
                 </Button>
                 , Shipping Engine. I developed a strong foundation in creating
-                highly scalable, resilient, and durable products. Our
-                team&apos;s primary focus was to provide real-time delivery
-                choices for customers on all items across Amazon.com &
-                subsidiaries.
+                highly scalable, resilient, and durable products. Our team on
+                providing real-time delivery choices for customers across
+                Amazon.com and its subsidiaries.
               </p>
             </li>
           </ul>
