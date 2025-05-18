@@ -20,7 +20,7 @@ export default function Home() {
                 PellaPro
               </Link>
             </Button>{" "}
-            and make Pella the easiest window & door company for businesses to
+            who make Pella the easiest window & door company for businesses to
             partner with.
           </p>
         </div>
