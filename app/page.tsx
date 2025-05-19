@@ -11,11 +11,19 @@ export default function Home() {
           <p className="text-muted-foreground">
             👋 I&apos;m a husband, dad, & Software Engineer, passionate about
             making things easy. I work at{" "}
-            <Button variant="link" className="text-base p-0 h-auto" asChild>
+            <Button
+              variant="link"
+              className="text-base p-0 h-auto whitespace-normal"
+              asChild
+            >
               <Link href="https://www.pella.com">Pella</Link>
             </Button>
             , where I lead a team of engineers building{" "}
-            <Button variant="link" className="text-base p-0 h-auto" asChild>
+            <Button
+              variant="link"
+              className="text-base p-0 h-auto whitespace-normal"
+              asChild
+            >
               <Link href="https://apps.apple.com/us/app/pellapro/id1632482375">
                 PellaPro
               </Link>
@@ -27,7 +35,11 @@ export default function Home() {
         <div className="flex flex-col gap-1">
           <h2 className="text-lg font-bold">Articles</h2>
           <div>
-            <Button variant="link" className="text-base p-0 h-auto" asChild>
+            <Button
+              variant="link"
+              className="text-base p-0 h-auto whitespace-normal"
+              asChild
+            >
               <Link href="https://medium.com/@andrew.pasture/how-lifes-chaos-inspired-pasture-our-vision-for-unified-care-9edc23cec1d9">
                 How Life&apos;s Chaos Inspired Pasture, A Vision for Unified
                 Care
@@ -45,7 +57,11 @@ export default function Home() {
                 </Button>
                 , Avanti. Our team built the foundation for the mobile & web
                 based Avanti Intelligence Platform, to track and optimize{" "}
-                <Button variant="link" className="text-base p-0 h-auto" asChild>
+                <Button
+                  variant="link"
+                  className="text-base p-0 h-auto text-wrap whitespace-normal"
+                  asChild
+                >
                   <Link href="https://www.avantiwindow.com/">
                     Avanti&apos;s
                   </Link>
@@ -55,7 +71,11 @@ export default function Home() {
             </li>
             <li>
               <p className="text-muted-foreground">
-                <Button variant="link" className="text-base p-0 h-auto" asChild>
+                <Button
+                  variant="link"
+                  className="text-base p-0 h-auto whitespace-normal"
+                  asChild
+                >
                   <Link href="https://www.amazon.com/">Amazon.com</Link>
                 </Button>
                 , Shipping Engine. I developed a strong foundation in creating
