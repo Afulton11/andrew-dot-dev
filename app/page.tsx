@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] min-h-screen justify-items-center p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] max-w-lg px-3">
+      <main className="flex flex-col gap-[32px] max-w-lg px-3 row-start-2">
         <div className="flex flex-col gap-2">
           <h1 className="text-2xl font-bold">Andrew Fulton</h1>
           <p className="text-muted-foreground">
