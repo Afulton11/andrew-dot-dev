@@ -26,7 +26,14 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-1">
           <h2 className="text-lg font-bold">Articles</h2>
-          <p className="text-muted-foreground">Stay tuned 📻</p>
+          <div>
+            <Button variant="link" className="text-base p-0 h-auto" asChild>
+              <Link href="https://medium.com/@andrew.pasture/how-lifes-chaos-inspired-pasture-our-vision-for-unified-care-9edc23cec1d9">
+                How Life&apos;s Chaos Inspired Pasture, A Vision for Unified
+                Care
+              </Link>
+            </Button>
+          </div>
         </div>
         <div className="flex flex-col gap-1">
           <h2 className="text-lg font-bold">Past Experience</h2>
