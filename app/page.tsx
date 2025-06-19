@@ -31,6 +31,19 @@ export default function Home() {
             who make Pella the easiest window & door company for businesses to
             partner with.
           </p>
+
+          <p className="text-muted-foreground">
+            I&apos;m also figuring out how we can leverage generative AI to help
+            families care for the things they love at{" "}
+            <Button
+              variant="link"
+              className="text-base p-0 h-auto whitespace-normal"
+              asChild
+            >
+              <Link href="https://carewithpasture.com">Pasture</Link>
+            </Button>{" "}
+            (a side project).
+          </p>
         </div>
         <div className="flex flex-col gap-1">
           <h2 className="text-lg font-bold">Articles</h2>
